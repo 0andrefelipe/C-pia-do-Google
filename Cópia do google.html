@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <script src="https://kit.fontawesome.com/0498e935cd.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <style>
+
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 75vh;
+                text-align: center;
+                background-image: url(background3.jpg);
+                background-position: center;
+                background-size: cover;
+                font-size: larger;
+                
+                
+            }
+
+           
+
+            input {
+                width: 550px;
+                height: 40px;
+                padding: 22px; 
+                border-radius: 24px;
+            }
+
+            #title {
+                font-size: large
+                font-family 'Courier New', Courier, monospace;
+                font-style: italic;
+                font-weight: 900;
+                color: white;
+                border-radius: 100px;
+                height: 60px;
+                
+                
+            }
+
+            *{
+                margin: 0;
+                padding: 0;
+                text-decoration: none;
+            }
+
+            .icones{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            .icones a{
+                display: inline-flex;
+                width: 50px;
+                height: 50px;
+                background: white;
+                color: black;
+                margin: 0 6px;
+                border-radius: 50px;
+                justify-content: center;
+                align-items: center;
+                transition: 0,4s;
+                font-size: 20px;
+                
+            }
+
+            .icones a:hover {
+                background: goldenrod;
+            }
+
+            .icones a i{
+                transition: 00.4s all;
+            }
+
+            .icones a:hover > i{
+                transform: scale(1.6) rotate(25deg);
+            }
+
+            
+
+        </style>
+    </head>
+    <body>
+
+        <div class="icones">
+        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+        
+        </div>
+
+        <form action="https://www.google.com/search" method="get">
+        <title>SEARCH</title>
+        <h1 id="Title">b r o w s e r</h1>
+        <input type="text" name="q" value="" placeholder="Pesquisar no browser!"/>
+
+
+        <script>
+
+           //const title1 = document.querySelector("#Title")
+           //title1.style = "color: white" 
+           
+        </script>
+        
+    </body>
+</html>
